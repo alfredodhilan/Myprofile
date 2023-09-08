@@ -1,0 +1,144 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    }
+.btn {
+    background-color: #fdd53f;
+    border-radius: 0px;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 360px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+    z-index: 222;
+    opacity: 0.9;
+    font-size: 44px;
+    position: relative;
+}
+.alamat {
+    text-align: center; 
+    font-weight: 700; 
+    font-size: 20px;
+}
+.pengalaman {
+    font-size: xx-large; 
+    padding-left: 5px; 
+    font-weight: 650;
+    color: #a07830;
+}
+.owner {
+    padding-left: 5px; 
+    font-weight: 700;
+}
+.penjelasan {
+    padding-left: 5px;
+}
+.food {
+    font-weight: 700; 
+    margin-top: -15px; 
+    padding-left: 5px;
+}
+.geanara {
+    padding-left: 5px; 
+    font-weight: 700; 
+    margin-top: 5px;
+}
+.dinas {
+    padding-left: 5px; 
+    font-weight: 700; 
+    margin-top: -5px;
+}
+.judul {
+    font-size: xx-large; 
+    padding-left: 5px; 
+    font-weight: 650;
+    color: #a07830;
+}
+.sub1 {
+    padding-left: 5px; 
+    font-weight: 650;
+    color: #a07830;
+}
+.sub2 {
+    padding-right: 230px; 
+    font-weight: 650;
+    color: #a07830; 
+    margin-top: -20px; 
+    text-align: right;
+}
+.point {
+    padding-left: 5px; 
+    margin-top: -15px;
+}
+.angka {
+    font-weight: 700;
+}
+.point1 {
+    padding-left: 5px;
+    margin-top: 10px;
+}
+.point2 {
+    padding-left: 5px; 
+    margin-top: -25px;
+}
+.youtube {
+    width: 80%; 
+    height: 250px; 
+    padding-left: 100px;
+}
+.jelas {
+    margin-top: 180px;
+}
+.lanjut {
+    padding-left: 15px;
+}
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .btn{
+      font-size: 7vw;
+      margin-top: 60px;
+    }
+    .alamat{
+        font-size: 4vw;
+    }
+    img{
+        width: 100%;
+    }
+    .pengalaman {
+        font-size: 5vw;
+    }
+    .youtube {
+    width: 100%;
+    padding: 0;  
+    }
+    .judul {
+        font-size: 5vw;
+    }
+    .jelas {
+        margin-top: 50px;
+    }
+    .sub2 {
+    padding-right: 20px; 
+    font-weight: 650;
+    color: #a07830; 
+    margin-top: -20px; 
+    text-align: right;
+    }
+    .owner{
+        font-size: 4vw;
+    }
+    .geanara {
+        font-size: 4vw;
+    }
+    .dinas {
+        font-size: 4vw;
+    }
+    .container {
+        width:100%;
+    }
+
+  }
